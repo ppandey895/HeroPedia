@@ -1,3 +1,7 @@
+# HeroPedia
+
+A React Webapp for information related to comic book characters and heroes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
