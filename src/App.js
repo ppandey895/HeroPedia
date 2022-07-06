@@ -22,7 +22,7 @@ function App() {
       <div className="App">
         <Header searchText={heroSearch} setSearch={heroQuery} setData={setData}/>
         <Routes>
-          <Route exact path="/" element={<Main />} />
+          <Route index element={<Main />} />
           <Route exact path="search" element={<SearchPage heroData={heroData} />} />
         </Routes>
 
