@@ -33,17 +33,15 @@ const Cards = () => {
 	};
 
 	const URL = `https://superhero-search.p.rapidapi.com/api/heroes`;	
-	
-	window.onload = () => {
-		fetch(URL, options)
-		.then(response => response.json())
-		.then(result => {
-			setData(result);
-			// console.log(result);
-		})
-		.catch(error => console.error(error));
-		// console.log('fetched data');
-	}
+
+	fetch(URL, options)
+	.then(response => response.json())
+	.then(result => {
+		setData(result);
+		// console.log(result);
+	})
+	.catch(error => console.error(error));
+	// console.log('fetched data');
 
 	return (
 		<>
