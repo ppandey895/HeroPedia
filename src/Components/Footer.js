@@ -2,7 +2,7 @@
 const Footer = props => {
 	return (
 		<div className="footer">
-			This is a Footer!
+			Source @SuperHeroAPI
 		</div>
 	)
 }
