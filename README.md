@@ -1,4 +1,4 @@
-<a href="ppandey895.github.io/Heropedia" >Check out the website</a>
+<a href="ppandey895.github.io/HeroPedia" >Check out the website</a>
 
 # HeroPedia
 
